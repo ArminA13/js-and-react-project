@@ -1,6 +1,6 @@
 import './App.css';
-import OpenForm from './component/openForm';
-import CustomizedDialogs from './component/openModal';
+import OpenForm from './component/OpenForm';
+import CustomizedDialogs from './component/OpenModal';
 
 
 function App() {
@@ -9,7 +9,6 @@ function App() {
       <CustomizedDialogs title= "User Form">
         <OpenForm/>
       </CustomizedDialogs>
-      
     </div>
   );
 }

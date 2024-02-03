@@ -3,12 +3,11 @@ body {
   background-color: rgb(177, 237, 244);
 }
 
-.MaterialForm > form {
+.Openform > form {
   display: flex;
   flex-direction: column;
   background-color: white;
   padding: 10px;
-  
   border-radius: 20px;
   
 }
