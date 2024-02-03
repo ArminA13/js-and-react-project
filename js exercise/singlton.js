@@ -44,6 +44,6 @@ class DataFetcher {
 }
 
 const dataFetcher = DataFetcher.getInstace();
-dataFetcher.getGroupedData("userId").then(groupedData => console.log(groupedData));
+dataFetcher.getGroupedData("id").then(groupedData => console.log(groupedData));
 
 
